@@ -9,5 +9,59 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.col-4{
+  width: 33.33%;
+  padding: 15px;
+}
+
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.cart{
+  padding: 15px;
+  background-color: #a3a1a1;
+  border-radius: 5px;
+  height: 100%;
+}
+
+Link{
+  text-decoration: none;
+}
+
+.ingri{
+  background-color: #989898;
+  padding: 50px;
+  border: 2px solid #0c0b0b;
+  margin: 40px 0px 0px 0px;
+  border-radius: 10px;
+  color: #fdf5f5;
+  line-height: 70px;
+}
+
+.aboutmeal{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.boxhelp{
+  display: flex;
+  justify-content: center;
 }
