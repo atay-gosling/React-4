@@ -35,10 +35,14 @@ code {
 }
 
 .cart{
-  padding: 15px;
-  background-color: #a3a1a1;
+  padding: 30px;
+  background-color: #b7b5b5;
   border-radius: 5px;
   height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: #0c0b0b 2px solid;
 }
 
 Link{
@@ -49,7 +53,7 @@ Link{
   background-color: #989898;
   padding: 50px;
   border: 2px solid #0c0b0b;
-  margin: 40px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
   border-radius: 10px;
   color: #fdf5f5;
   line-height: 70px;
@@ -59,9 +63,99 @@ Link{
   display: flex;
   justify-content: space-between;
   align-content: center;
+  margin: 0px 0px 20px 0px;
 }
 
 .boxhelp{
   display: flex;
   justify-content: center;
+}
+
+button{
+}
+
+.helpbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-6{
+  max-width: 50%;
+  padding: 0 15px;
+}
+
+.HelpRow{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.HelpRow p{
+  font-size: 12px;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.HelpRow img{
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.youtube{
+  border: 2px solid #000000;
+  border-radius: 15px;
+  width: 950px;
+  height: 600px;
+}
+
+.span{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: black;
+  color: #a8a8ff;
+}
+
+button{
+  margin: 15px 0px 0px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.Link{
+  text-decoration: none
+}
+
+.cartH2{
+  color: #ffffff;
+  margin: 0px 0px 20px 0px;
+}
+
+.cartImg{
+  border-radius: 10px;
+  border: solid 2px black;
+}
+
+.Header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.HeaderLink{
+  text-decoration: none;
+  background-color: #8c8c8c;
+  padding: 10px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.helpNav{
+  gap: 30px;
+  display: flex;
 }

@@ -9,7 +9,7 @@ const Productlist = ({meals}) => {
                 meals.map(meal => {
                     return (
                         <div className={'col-4'} key={meal.idMeal}>
-                            <Link to={`/meal/${meal.idMeal}`}>
+                            <Link to={`/meal/${meal.idMeal}`} className={'Link'}>
                                 <Card meal={meal} />
                             </Link>
                         </div>

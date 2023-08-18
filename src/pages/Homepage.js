@@ -14,7 +14,6 @@ const Homepage = () => {
     return (
         <div className={'container'}>
                 <Header/>
-                <h2>homepage</h2>
                 <Productlist meals={meals}/>
         </div>
     )
