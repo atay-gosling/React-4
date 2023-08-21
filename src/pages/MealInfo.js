@@ -29,7 +29,7 @@ const MealInfo = () => {
                     <div className="box"> <img src={meal.strMealThumb} alt={meal.strMeal} width={250}/></div>
                 </div>
                <div className="col-6">
-                   <div className="box"><p>{meal.strInstructions}</p></div>
+                       <div className="box"><p className={'special-p'}>{meal.strInstructions}</p></div>
                </div>
             </div>
             <div className={'ingri'}>
@@ -39,33 +39,33 @@ const MealInfo = () => {
                         <Link to={`/ingredient/${meal.strIngredient1}`}>
                                 <img src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient1}.png`} width={'150'} alt=""/>
                             </Link>
-                            <Link to={`/ingredient/${meal.strIngredient2}`}>
+                            <Link to={`/ingredient/${meal.strIngredient4}`}>
                                 <img src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient4}.png`} width={'150'} alt=""/>
                             </Link>
-                            <Link to={`/ingredient/${meal.strIngredient3}`}>
+                            <Link to={`/ingredient/${meal.strIngredient7}`}>
                                 <img src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient7}.png`} width={'150'} alt=""/>
                             </Link>
                         </div>
                     </div>
                     <div className={'col-4'}>
                         <div className={`${'box'} ${'helpbox'}`}>
-                        <Link to={`/ingredient/${meal.strIngredient4}`}>
+                        <Link to={`/ingredient/${meal.strIngredient2}`}>
                                 <img src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient2}.png`} width={'150'} alt=""/>
                             </Link>
                             <Link to={`/ingredient/${meal.strIngredient5}`}>
                                 <img src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient5}.png`} width={'150'} alt=""/>
                             </Link>
-                            <Link to={`/ingredient/${meal.strIngredient6}`}>
+                            <Link to={`/ingredient/${meal.strIngredient8}`}>
                                 <img src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient8}.png`} width={'150'} alt=""/>
                             </Link>
                         </div>
                     </div>
                     <div className={'col-4'}>
                         <div className={`${'box'} ${'helpbox'}`}>
-                        <Link to={`/ingredient/${meal.strIngredient7}`}>
+                        <Link to={`/ingredient/${meal.strIngredient3}`}>
                                 <img src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient3}.png`} width={'150'} alt=""/>
                             </Link>
-                            <Link to={`/ingredient/${meal.strIngredient8}`}>
+                            <Link to={`/ingredient/${meal.strIngredient6}`}>
                                 <img src={`https://www.themealdb.com/images/ingredients/${meal.strIngredient6}.png`} width={'150'} alt=""/>
                             </Link>
                             <Link to={`/ingredient/${meal.strIngredient9}`}>

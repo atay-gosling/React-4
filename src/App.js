@@ -3,7 +3,6 @@ import {Routes, Route } from 'react-router-dom'
 import Homepage from './pages/Homepage'
 import AboutPage from "./pages/AboutPage";
 import MealInfo from "./pages/MealInfo";
-import IngredientSearch from "./companents/Ingredients";
 import IngredientMeals from "./companents/Ingredients";
 
 const App = () => {
